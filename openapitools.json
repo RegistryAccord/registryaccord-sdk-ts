@@ -1,0 +1,114 @@
+{
+    "$schema": "node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+    "spaces": 2,
+    "generator-cli": {
+        "version": "7.5.0",
+        "generators": {
+            "identity": {
+                "generatorName": "typescript-axios",
+                "output": "#{cwd}/src/generated/identity",
+                "inputSpec": "specs/openapi/identity/v1/openapi.yaml",
+                "additionalProperties": {
+                    "npmName": "@registryaccord/sdk",
+                    "npmVersion": "0.1.0",
+                    "supportsES6": "true",
+                    "withSeparateModelsAndApi": "true",
+                    "apiPackage": "api",
+                    "modelPackage": "models",
+                    "useSingleRequestParameter": "false",
+                    "withInterfaces": "true"
+                }
+            },
+            "content": {
+                "generatorName": "typescript-axios",
+                "output": "#{cwd}/src/generated/content",
+                "inputSpec": "specs/openapi/content/v1/openapi.yaml",
+                "additionalProperties": {
+                    "npmName": "@registryaccord/sdk",
+                    "npmVersion": "0.1.0",
+                    "supportsES6": "true",
+                    "withSeparateModelsAndApi": "true",
+                    "apiPackage": "api",
+                    "modelPackage": "models",
+                    "useSingleRequestParameter": "false",
+                    "withInterfaces": "true"
+                }
+            },
+            "storage": {
+                "generatorName": "typescript-axios",
+                "output": "#{cwd}/src/generated/storage",
+                "inputSpec": "specs/openapi/storage/v1/openapi.yaml",
+                "additionalProperties": {
+                    "npmName": "@registryaccord/sdk",
+                    "npmVersion": "0.1.0",
+                    "supportsES6": "true",
+                    "withSeparateModelsAndApi": "true",
+                    "apiPackage": "api",
+                    "modelPackage": "models",
+                    "useSingleRequestParameter": "false",
+                    "withInterfaces": "true"
+                }
+            },
+            "payments": {
+                "generatorName": "typescript-axios",
+                "output": "#{cwd}/src/generated/payments",
+                "inputSpec": "specs/openapi/payments/v1/openapi.yaml",
+                "additionalProperties": {
+                    "npmName": "@registryaccord/sdk",
+                    "npmVersion": "0.1.0",
+                    "supportsES6": "true",
+                    "withSeparateModelsAndApi": "true",
+                    "apiPackage": "api",
+                    "modelPackage": "models",
+                    "useSingleRequestParameter": "false",
+                    "withInterfaces": "true"
+                }
+            },
+            "feeds": {
+                "generatorName": "typescript-axios",
+                "output": "#{cwd}/src/generated/feeds",
+                "inputSpec": "specs/openapi/feeds/v1/openapi.yaml",
+                "additionalProperties": {
+                    "npmName": "@registryaccord/sdk",
+                    "npmVersion": "0.1.0",
+                    "supportsES6": "true",
+                    "withSeparateModelsAndApi": "true",
+                    "apiPackage": "api",
+                    "modelPackage": "models",
+                    "useSingleRequestParameter": "false",
+                    "withInterfaces": "true"
+                }
+            },
+            "revenue": {
+                "generatorName": "typescript-axios",
+                "output": "#{cwd}/src/generated/revenue",
+                "inputSpec": "specs/openapi/revenue/v1/openapi.yaml",
+                "additionalProperties": {
+                    "npmName": "@registryaccord/sdk",
+                    "npmVersion": "0.1.0",
+                    "supportsES6": "true",
+                    "withSeparateModelsAndApi": "true",
+                    "apiPackage": "api",
+                    "modelPackage": "models",
+                    "useSingleRequestParameter": "false",
+                    "withInterfaces": "true"
+                }
+            },
+            "analytics": {
+                "generatorName": "typescript-axios",
+                "output": "#{cwd}/src/generated/analytics",
+                "inputSpec": "specs/openapi/analytics/v1/openapi.yaml",
+                "additionalProperties": {
+                    "npmName": "@registryaccord/sdk",
+                    "npmVersion": "0.1.0",
+                    "supportsES6": "true",
+                    "withSeparateModelsAndApi": "true",
+                    "apiPackage": "api",
+                    "modelPackage": "models",
+                    "useSingleRequestParameter": "false",
+                    "withInterfaces": "true"
+                }
+            }
+        }
+    }
+}
