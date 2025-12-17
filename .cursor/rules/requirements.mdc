@@ -1,0 +1,14 @@
+***
+description: Enforce Specs & Knowledge
+globs: ["src/**/*.ts", "tests/**/*.ts"]
+alwaysApply: true
+***
+# Requirement Check
+
+Before writing code:
+1. Consult `docs/requirements/INDEX.md` and relevant service files.
+2. Check `.ai/knowledge/` for patterns.
+3. If unsure, ask user to verify spec interpretation.
+
+@docs/requirements/INDEX.md
+@.ai/knowledge/tech-stack.md
